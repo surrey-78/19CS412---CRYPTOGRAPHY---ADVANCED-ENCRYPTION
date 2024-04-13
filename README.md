@@ -84,7 +84,8 @@ return 0;
 }
 ```
 ## OUTPUT:
-![Screenshot 2024-03-05 113517](https://github.com/AlluguriSrikrishnateja/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/118343892/b96f8704-db74-4fb0-835d-078d58644625)
+![Screenshot 2024-04-13 082053](https://github.com/surrey-78/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/119559366/e4e95c75-c52a-4cbf-9704-e749b773ad91)
+
 
 
 ## RESULT :
@@ -103,6 +104,7 @@ application like URL Encryption.
 4. AES operates on a 4 × 4 column-major order array of bytes, termed the state
 ## PROGRAM:
 ## AES.java
+```
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -161,12 +163,10 @@ Base64.getEncoder().encodeToString(cipher.doFinal(strToEncrypt.getBytes("UTF-8")
  System.out.println("Decrypted URL : " + decryptedString);
  }
 }
+```
    ## OUTPUT:
-URL Encryption Using AES Algorithm
--------------------------------------------------
-Original URL : www.annauniv.edu
-Encrypted URL : vibpFJW6Cvs5Y+L7t4N6YWWe07+JzS1d3CU2h3mEvEg=
-Decrypted URL : www.annauniv.edu
+![Screenshot 2024-04-13 082435](https://github.com/surrey-78/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/119559366/4ac9756e-eb74-4bdb-aa7f-9fd96409713a)
+
 
 ## RESULT:
 
@@ -241,8 +241,8 @@ return 0;
 }
 ```
 ## OUTPUT:
+![Screenshot 2024-04-13 082816](https://github.com/surrey-78/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/119559366/a6f5e2ad-69db-4726-aec2-0f2d6d1fc8e6)
 
-<img width="342" alt="image" src="https://github.com/AlluguriSrikrishnateja/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/118343892/a3f5b0fa-ef81-4215-9521-2a16c87cef68">
 
 
 ## RESULT: 
@@ -289,8 +289,7 @@ decMessage = fernet.decrypt(encMessage).decode()
 print("decrypted string: ", decMessage)
 ```
 ## OUTPUT:
-
-<img width="756" alt="image" src="https://github.com/AlluguriSrikrishnateja/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/118343892/23e74c08-7cea-4381-b9fe-97e247b17470">
+![2024-04-13 at 08 36 14_d4acb556](https://github.com/surrey-78/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/119559366/287863cb-9d30-4aec-969b-5e183682a499)
 
 ## RESULT:
 
