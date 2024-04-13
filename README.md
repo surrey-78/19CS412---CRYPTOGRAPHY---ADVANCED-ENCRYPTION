@@ -169,7 +169,7 @@ Base64.getEncoder().encodeToString(cipher.doFinal(strToEncrypt.getBytes("UTF-8")
 
 
 ## RESULT:
-
+Thus the Java program to implement AES encryption technique had been implemented successfully
 
 
 ## IMPLEMENTATION OF DIFFIE HELLMAN KEY EXCHANGE ALGORITHM
